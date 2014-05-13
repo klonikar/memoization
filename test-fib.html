@@ -1,0 +1,15 @@
+<html>
+<head>
+<title> test memoize </title>
+</head>
+<body>
+<input type="text" id="number" name="number" />
+<button type="button" onclick="callAndPrintFib(document.getElementById('number').value, 'output');" > Memoized Fib </button>
+<button type="button" onclick="callAndPrintFibStraight(document.getElementById('number').value, 'output');" > Normal Fib </button>
+<br/>
+<span id="output" name="output"> </span>
+
+<script type="text/javascript" src="memoize.js"></script>
+<script type="text/javascript" src="fib.js"></script>
+</body>
+</html>
